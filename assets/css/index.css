@@ -1,0 +1,45 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Abel');
+html,
+body {
+    background-image: linear-gradient(211deg, #001372, #990056);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 16vw;
+    font-weight: 500;
+    color: #fff;
+}
+
+.mlogo {
+    max-width: 60vmin;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.intro {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 7vw;
+    color: #ffffff;
+}
+
+.start {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 6vw;
+    background-color: #fff;
+    text-decoration-line: none;
+    padding: 1vh 19vw;
+    border-radius: 4vh;
+    color: #4D0A64;
+}
