@@ -1,16 +1,5 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('https://fonts.googleapis.com/css?family=Abel');
-.mobcontainer {
-    border-radius: 7vmin;
-    /*margin: 4vh 1vw;*/
-    background-color: #FFF;
-    width: 85vw;
-    height: 75vh;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 6vw;
-    text-align: center;
-}
-
 .logoimage {
     margin-top: 3vh;
     width: 17.5vw;
@@ -25,23 +14,26 @@
 }
 
 .subtext {
+    border-top: 2px solid grey;
+    padding-top: 2vh;
+    clear: both;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 3.5vw;
 }
 
-.left{
+.left {
     width: 42%;
     height: 100%;
-    margin-left:7%;
-    margin-right:1%;
+    margin-left: 7%;
+    margin-right: 1%;
     float: left;
 }
 
-.right{
+.right {
     width: 42%;
     height: 100%;
-    margin-right:7%;
-    margin-left:1%;
+    margin-right: 7%;
+    margin-left: 1%;
     float: right;
 }
 
@@ -60,17 +52,10 @@
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
     font-size: 3.5vw;
-    border:2px solid #4D0A64;
+    border: 2px solid #4D0A64;
     text-decoration-line: none;
     padding: 1.5vh;
     border-radius: 4vh;
     color: #000;
-}
-
-#button_big_n{
-    width: 79%;
-    margin-right:7%;
-    margin-left:7%;
-    justify-content: center;
-
+    box-sizing: border-box;
 }

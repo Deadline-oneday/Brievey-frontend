@@ -1,0 +1,39 @@
+.summarycontainer {
+    text-align: start;
+    margin: 7vmin 0 0 0;
+}
+
+.summarycontainer p {
+    font-size: 4vw;
+}
+
+.summarycontainer b {
+    font-size: 5vw;
+}
+
+.summaryimage {
+    width: 100%;
+}
+
+.survey {
+    font-size: 5vw;
+    margin: 0;
+    border: 0;
+    border-bottom: 2px solid darkblue;
+    width: 100%;
+    transition-duration: 500ms;
+    font-family: 'Abel', sans-serif;
+}
+
+.survey:focus {
+    border-bottom-color: blue;
+}
+
+.noborder {
+    margin: 0;
+    border: 0;
+}
+
+.tablec img {
+    width: 22.7vw;
+}
