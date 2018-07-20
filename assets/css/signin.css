@@ -1,0 +1,23 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Abel');
+.mobcontainer {
+    border-radius: 4vmin;
+    /*margin: 4vh 1vw;*/
+    background-color: #FFF;
+    width: 85vw;
+    height: 75vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.logoimage {
+    margin-top: 3vh;
+    width: 17.5vw;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logotext {}
