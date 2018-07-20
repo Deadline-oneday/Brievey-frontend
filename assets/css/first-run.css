@@ -45,7 +45,7 @@
     float: right;
 }
 
-.button_d {
+.button_focus {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
     font-size: 3.5vw;
@@ -54,4 +54,23 @@
     padding: 1.5vh;
     border-radius: 4vh;
     color: #fff;
+}
+
+.button_normal {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 3.5vw;
+    border:2px solid #4D0A64;
+    text-decoration-line: none;
+    padding: 1.5vh;
+    border-radius: 4vh;
+    color: #000;
+}
+
+#button_big_n{
+    width: 79%;
+    margin-right:7%;
+    margin-left:7%;
+    justify-content: center;
+
 }
