@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+.mobcontainer {
+    border-radius: 7vmin;
+    /*margin: 4vh 1vw;*/
+    background-color: #FFF;
+    width: 82.5vw;
+    min-height: 75vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 6vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 5vw;
+}
+
+.logoimage {
+    margin-top: 3vh;
+    width: 20vw;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logotext {
+    font-size: 7vw;
+}
+
+.inputcontainer {
+    text-align: center;
+    margin: 0vh 0;
+}
+
+.inputcontainer p {
+    font-size: 4vw;
+    margin: 0;
+}
+
+.inputcontainer input {
+    font-size: 5vw;
+    margin: 0;
+    border: 0;
+    border-bottom: 2px solid darkblue;
+    width: 100%;
+    transition-duration: 500ms;
+    font-family: 'Abel', sans-serif;
+}
+
+.inputcontainer input:focus {
+    border-bottom-color: blue;
+}
+
+.btn {
+    display: block;
+    width: 48%;
+    border-radius: 3vmax;
+    background-image: linear-gradient(to right, #990056, #001372);
+    font-size: 4vw;
+    color: #FFF;
+    text-decoration-line: none;
+    padding: 1vh 0;
+}
+
+.register {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-radius: 10vmax;
+    border: 2px solid #4D0A64;
+    font-size: 4vw;
+    color: #000;
+    text-decoration-line: none;
+    padding: 1vh 0;
+    margin: 2vh 0;
+}
+
+.forgetpass {
+    color: #000;
+    text-decoration-line: none;
+    font-size: 4vw;
+}
+
+.num{
+    font-size:8.5rem;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Abel;
+    padding:15% 0;
+}
+
+.statcontainer{
+    
+}
+
+.texttitle{
+    font-size: 3.75vw;
+    text-align: left;
+    font-weight: 500;
+}
+
+.textcontent{
+    font-size: 3.75vw;
+    text-align: left;
+    color: #616161;
+    font-weight: 500;
+    margin-top: -5%;
+}
+
+.marker{
+    float: right;
+    width: 12vw;
+    height: 100%;
+    margin-top: 10%;
+    display: block;
+}
+
+.text_c{
+    float: left;
+    width: 80%;
+}
